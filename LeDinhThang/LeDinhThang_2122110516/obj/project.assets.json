@@ -5157,11 +5157,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj",
+      "projectUniqueName": "C:\\Users\\ad\\Desktop\\ASP_LeDinhThang_2122110516\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj",
       "projectName": "LeDinhThang_2122110516",
-      "projectPath": "D:\\ASP\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj",
+      "projectPath": "C:\\Users\\ad\\Desktop\\ASP_LeDinhThang_2122110516\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj",
       "packagesPath": "C:\\Users\\ad\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP\\LeDinhThang\\LeDinhThang_2122110516\\obj\\",
+      "outputPath": "C:\\Users\\ad\\Desktop\\ASP_LeDinhThang_2122110516\\LeDinhThang\\LeDinhThang_2122110516\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ad\\AppData\\Roaming\\NuGet\\NuGet.Config",
