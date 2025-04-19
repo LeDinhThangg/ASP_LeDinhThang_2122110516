@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ad\\Desktop\\ASP_LeDinhThang_2122110516\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj": {}
+    "D:\\testapi\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ad\\Desktop\\ASP_LeDinhThang_2122110516\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj": {
+    "D:\\testapi\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ad\\Desktop\\ASP_LeDinhThang_2122110516\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj",
+        "projectUniqueName": "D:\\testapi\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj",
         "projectName": "LeDinhThang_2122110516",
-        "projectPath": "C:\\Users\\ad\\Desktop\\ASP_LeDinhThang_2122110516\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj",
+        "projectPath": "D:\\testapi\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj",
         "packagesPath": "C:\\Users\\ad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ad\\Desktop\\ASP_LeDinhThang_2122110516\\LeDinhThang\\LeDinhThang_2122110516\\obj\\",
+        "outputPath": "D:\\testapi\\LeDinhThang\\LeDinhThang_2122110516\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ad\\AppData\\Roaming\\NuGet\\NuGet.Config",
