@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\testapi\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj": {}
+    "C:\\Users\\ad\\Desktop\\ASP_LeDinhThang_2122110516\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj": {}
   },
   "projects": {
-    "D:\\testapi\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj": {
+    "C:\\Users\\ad\\Desktop\\ASP_LeDinhThang_2122110516\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\testapi\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj",
+        "projectUniqueName": "C:\\Users\\ad\\Desktop\\ASP_LeDinhThang_2122110516\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj",
         "projectName": "LeDinhThang_2122110516",
-        "projectPath": "D:\\testapi\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj",
+        "projectPath": "C:\\Users\\ad\\Desktop\\ASP_LeDinhThang_2122110516\\LeDinhThang\\LeDinhThang_2122110516\\LeDinhThang_2122110516.csproj",
         "packagesPath": "C:\\Users\\ad\\.nuget\\packages\\",
-        "outputPath": "D:\\testapi\\LeDinhThang\\LeDinhThang_2122110516\\obj\\",
+        "outputPath": "C:\\Users\\ad\\Desktop\\ASP_LeDinhThang_2122110516\\LeDinhThang\\LeDinhThang_2122110516\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.3, )"
@@ -66,9 +74,17 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.9.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             }
           },
           "imports": [

@@ -61,6 +61,28 @@ namespace LeDinhThang_2122110516.Controllers
             return Ok(product);
         }
 
+        [HttpGet("GetProductByCategoryId/{categoryId}")]
+        public async Task<ActionResult<IEnumerable<ProductDTO>>> GetProductByCategoryId(int categoryId)
+        {
+            var products = await _context.Products
+                .Where(p => p.CategoryId == categoryId)
+                .Select(p => new ProductDTO
+                {
+                    Id = p.Id,
+                    ProductName = p.ProductName,
+                    Description = p.Description,
+                    Quantity = p.Quantity,
+                    Price = p.Price,
+                    Image = p.Image,
+                    BrandId = p.BrandId,
+                    CategoryId = p.CategoryId
+                })
+                .ToListAsync();
+
+            return Ok(products);
+        }
+
+
         [HttpPost]
         public async Task<ActionResult<Product>> CreateProduct(ProductDTO productDTO)
         {

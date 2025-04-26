@@ -62,6 +62,27 @@ namespace LeDinhThang_2122110516.Controllers
             return Ok(orderDetail);
         }
 
+        // GET: api/OrderDetail/GetOrderDetailByOrderId/5
+        [HttpGet("GetOrderDetailByOrderId/{orderId}")]
+        public async Task<ActionResult<IEnumerable<OrderDetailDTO>>> GetOrderDetailByOrderId(int orderId)
+        {
+            var orderDetails = await _context.OrderDetails
+                .Where(od => od.OrderId == orderId)
+                .Include(od => od.Product)
+                .Select(od => new OrderDetailDTO
+                {
+                    Id = od.Id,
+                    OrderId = od.OrderId,
+                    ProductId = od.ProductId,
+                    ProductName = od.Product.ProductName,
+                    Quantity = od.Quantity,
+                    Price = od.Price
+                })
+                .ToListAsync();
+
+            return Ok(orderDetails);
+        }
+
         // POST: api/OrderDetail
         [HttpPost]
         public async Task<ActionResult<OrderDetail>> CreateOrderDetail(OrderDetailDTO orderDetailDTO)

@@ -503,3 +503,6 @@ D:\testapi\LeDinhThang\LeDinhThang_2122110516\obj\Debug\net8.0\scopedcss\bundle\
 D:\testapi\LeDinhThang\LeDinhThang_2122110516\obj\Debug\net8.0\LeDinhTh.B52EE59C.Up2Date
 D:\testapi\LeDinhThang\LeDinhThang_2122110516\obj\Debug\net8.0\LeDinhThang_2122110516.genruntimeconfig.cache
 D:\testapi\LeDinhThang\LeDinhThang_2122110516\obj\Debug\net8.0\ref\LeDinhThang_2122110516.dll
+C:\Users\ad\Desktop\ASP_LeDinhThang_2122110516\LeDinhThang\LeDinhThang_2122110516\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ad\Desktop\ASP_LeDinhThang_2122110516\LeDinhThang\LeDinhThang_2122110516\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+C:\Users\ad\Desktop\ASP_LeDinhThang_2122110516\LeDinhThang\LeDinhThang_2122110516\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

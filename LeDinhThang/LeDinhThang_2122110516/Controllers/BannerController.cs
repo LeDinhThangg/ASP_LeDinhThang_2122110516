@@ -3,8 +3,10 @@ using LeDinhThang_2122110516.model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace LeDinhThang_2122110516.Controllers
 {
+
     [Route("api/[controller]")]
     [ApiController]
     public class BannerController : ControllerBase
